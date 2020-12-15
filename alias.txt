@@ -1,0 +1,12 @@
+$ alias
+alias ga='git add'
+alias gbav='git branch -av'
+alias gc='git checkout'
+alias gcm='git commit -m "'
+alias gd='git branch -D'
+alias gm='git merge --no-ff'
+alias grh='git reset --hard'
+alias ll='ls -l'
+alias ls='ls -F --color=auto --show-control-chars'
+alias tree='git tree'
+alias tree2='git tree2'
