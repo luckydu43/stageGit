@@ -1,0 +1,500 @@
+    8  git branch -av
+    9  git tree
+   10  ls
+   11  touch contact.php
+   12  git add contact.php contact.php 
+   13  gcm stageGit(add) : ajout du fichier contact.php"
+   14  git branch -av
+   15  git tree
+   16  git checkout master
+   17  git merge developpement
+   18  git branch -av
+   19  git branch -av
+   20  git tree
+   21  git push
+   22  git tree
+   23  git checkout developpement
+   24  git push
+   25  gc -B featureabout
+   26  git config --global
+   27  git config --global -l
+   28  alias
+   29  gc master
+   30  gc -B featurecontact
+   31  alias gbav='git branch -av'
+   32  gbav
+   33  vim contact.php 
+   34  ga
+   35  ga contact.php 
+   36  gcm stageGit(upt) : maj fichier contact.php"
+   37  alias
+   38  gbav
+   39  gc master
+   40  git merge featurecontact
+   41  gbav
+   42  git log
+   43  git reset 0060313bb5ba486f8e98b1f357711bacaef2ca7d
+   44  git reset --hard 0060313bb5ba486f8e98b1f357711bacaef2ca7d
+   45  git branch -av
+   46  git merge featurecontact
+   47  git push
+   48  git reset --hard 0060313bb5ba486f8e98b1f357711bacaef2ca7d
+   49  git branch -av
+   50  git push
+   51  git push -f origin master
+   52  git branch -av
+   53  gc featureabout
+   54  touch about.php
+   55  ga about.php 
+   56  alias
+   57  alias gcm='git commit -m "stageGit('
+   58  gcm add) : ajouter fichier about.php"
+   59  gc master
+   60  git merge featureabout
+   61  gcav
+   62  gbav
+   63  git rebase featurecontact 
+   64  gbav
+   65  git push
+   66  gd featureabout
+   67  gd featurecontact
+   68  gbav
+   69  gc developpement
+   70  git rebase master
+   71  git push
+   72  gbav
+   73  git tree
+   74  git tree2
+   75  gbav
+   76  gc master
+   77  gc -B featuredesign
+   78  gc -B featurelogo
+   79  gc featuredesgin
+   80  gc featuredesigin
+   81  gc featuredesign
+   82  touch image.png
+   83  ga image.png 
+   84  gcm add ) : ajout fichier image.png
+   85  "
+   86  gc featurelogo
+   87  touch logo.png
+   88  ga logo.png 
+   89  gcm add ) : ajout fichier logo.png"
+   90  gc master
+   91  gbav
+   92  git merge --no-ff featuredesign
+   93  gbav
+   94  git tree
+   95  git merge --no-ff featurelogo
+   96  git tree
+   97  git reset --hard da022e8
+   98  git tree
+   99  gc featurelogo
+  100  git merge --no-ff master
+  101  git tree
+  102  gc master
+  103  git merge --no-ff featurelogo
+  104  git tree
+  105  git branch -av
+  106  ls
+  107  vim contact.php 
+  108  git push
+  109  gd featuredesign
+  110  gd featurelogo
+  111  git tree
+  112  gbav
+  113  gc developpement
+  114  git merge master
+  115  ls
+  116  vim contact.php 
+  117  git push
+  118  gbav
+  119  git tree
+  120  git config --global -l
+  121  git log --all --decorate --oneline --graph
+  122  git tree
+  123  git tree2
+  124  git log --all --decorate --oneline --graph
+  125  git tree2
+  126  git tree
+  127  git config --global -l
+  128  gbav
+  129  alias
+  130  balias
+  131  gbav
+  132  git tree
+  133  alias
+  134  alias gcm='git commit -m'
+  135  alias grh='git reset --hard'
+  136  gc -B feature
+  137  ivm index.php 
+  138  vim index.php 
+  139  git add index.php 
+  140  gcm "stageGit(upt) : modif index.php"
+  141  ls
+  142  vim logo.png 
+  143  git add logo.png 
+  144  gcm "stageGit(upt) : modif image logo.png"
+  145  gc master
+  146  git tree
+  147  git cherry-pick fc1ee48
+  148  git tree
+  149  git cherry-pick 81c35
+  150  git tree
+  151  git merge feature
+  152  git tree
+  153  gd feature
+  154  git push
+  155  gc developpeemnt
+  156  gc developpement
+  157  git tree
+  158  alias tree='git tree'
+  159  tree
+  160  git merge master
+  161  tree
+  162  grh 3ccbf43
+  163  git tree
+  164  gbav
+  165  git merge master
+  166  git push
+  167  tree
+  168  tree2
+  169  tree 2
+  170  git tree2
+  171  alias
+  172  alias gm='git merge --no-ff'
+  173  git remote show origin
+  174  git remote -v
+  175  vim index.php 
+  176  ls
+  177  vim contact.php 
+  178  vim contact.php 
+  179  ga contact.php 
+  180  gcm stageGit(upt) : modif contact.php"
+  181  alias gcm
+  182  alias gcm='git commit -m "'
+  183  gcm stageGit(upt) : modif contact.php"
+  184  git push origin master
+  185  git push -f origin master
+  186  gbac
+  187  gbav
+  188  git push remotes/origin/master
+  189  git push origin/master
+  190  git push origin master
+  191  git push
+  192  gc master
+  193  git merge developpement
+  194  git push
+  195  tree
+  196  neofetch
+  197  ls
+  198  vim index.php 
+  199  gbav
+  200  git log --merge
+  201  git log --merge MERGE_HEAD
+  202  git log --merge master
+  203  git log --merge
+  204  git log -p
+  205  :q
+  206  git log --all --decorate --oneline --graph -p
+  207  :q
+  208  tree -p
+  209  :q
+  210  alias tree2='git tree2'
+  211  tree2 -p
+  212  :q
+  213  clear
+  214  tree2 -p
+  215  :q
+  216  alias
+  217  git config --global -l
+  218  tree2 -p
+  219  cd ..
+  220  git clone https://gitlab.com/luckydu43/clone_stagegit_github
+  221  cd clone_stagegit_github/
+  222  git bash ssh-keygen
+  223  git ssh-keygen
+  224  ssh-keygen
+  225  vim ~/.ssh/id_rsa.pub 
+  226  git pull
+  227  tree -p
+  228  tree
+  229  git remote add cloneStageGitGitlab https://gitlab.com/luckydu43/clone_stagegit_github
+  230  git iremote -l
+  231  git remote -v
+  232  git remote rm cloneStageGitGitlab
+  233  git remote -v
+  234  cd ..
+  235  ls
+  236  cd stageGit/
+  237  l
+  238  ls
+  239  git remote -v
+  240  git remote add https://gitlab.com/luckydu43/clone_stagegit_github
+  241  git remote add GitLab https://gitlab.com/luckydu43/clone_stagegit_github
+  242  git remote -v
+  243  git push gitLab
+  244  git push GitLab
+  245  git remote -v
+  246  git remote rm GitLab
+  247  git remote add github git@gitlab.com:luckydu43/clone_stagegit_github.git
+  248  git remote rm github
+  249  git remote add gitlab git@gitlab.com:luckydu43/clone_stagegit_github.git
+  250  git push gitlab master
+  251  git push -f gitlab master
+  252  git push -f gitlab master
+  253  git remote -v
+  254  tree
+  255  tree
+  256  gbav
+  257  git checkout developpement
+  258  git remote -v
+  259  git push gitlab developpement
+  260  git remote -v
+  261  gbav
+  262  gc -B new-feature
+  263  tree
+  264  vim index.php 
+  265  vim info.php
+  266  ga info.php 
+  267  alias gcm 
+  268  gcm stageGit(add) : ajout info.php"
+  269  git push gitlab developpement
+  270  git push gitlab
+  271  gbav
+  272  tree
+  273  git checkout master
+  274  git pull gitlab master
+  275  git checkout developpement
+  276  git merge master
+  277  tree
+  278  git push origin developpement
+  279  gc master
+  280  git push origin master
+  281  tree
+  282  gbav
+  283  gc developpement
+  284  git push gitlab developpement
+  285  gbav
+  286  tree
+  287  tree
+  288  gbav
+  289  gbav
+  290  alias
+  291  gbav
+  292  git branch -av
+  293  gbav
+  294  git fetch
+  295  gbav
+  296  git pull
+  297  gbav
+  298  gc master
+  299  git pull
+  300  gbav
+  301  git fetch gitlab
+  302  gbav
+  303  bd newfeature
+  304  gd newfeature
+  305  gd new-feature
+  306  gd remotes/gitlab/new-feature
+  307  gd gitlab/new-feature
+  308  gbav
+  309  gd gitlab new-feature
+  310  man git
+  311  git branch --help
+  312  git branch -r
+  313  git branch -r --delete
+  314  git branch -r --delete gitlab/new-feature
+  315  gbav
+  316  gc developpement
+  317  gc -B feature42
+  318  touch index.html
+  319  vim index.html 
+  320  vim index.html 
+  321  git add index.html 
+  322  gcm stageGit(add) : Ajout fichier index.html 42"
+  323  gc master
+  324  gc -B feature43
+  325  gc feature42
+  326  vim index.html 
+  327  gc feature43
+  328  vim index.html
+  329  vim index.html*
+  330  ga index.html 
+  331  gc master
+  332  alias
+  333  gm feature42
+  334  vim index.
+  335  vim index.html 
+  336  rm -rf index.html 
+  337  gm feature42
+  338  git rm index.html
+  339  gm feature42
+  340  gc feature42
+  341  ls
+  342  vim index.html
+  343  gc feature43
+  344  vim index.html
+  345  gbav
+  346  l
+  347  ls
+  348  gc feature42
+  349  vim index.html 
+  350  gc feature43
+  351  vim index.html 
+  352  ga index.html 
+  353  gcm stageGit(add) : Ajout fichier index.html 43"
+  354  gc master
+  355  gbav
+  356  gm feature42 master
+  357  gm feature43 master
+  358  vim index.html 
+  359  gm feature43 master
+  360  ls -lisa
+  361  vim :q
+  362  rm -rf :q
+  363  lq
+  364  ls
+  365  ls
+  366  ls -lisa
+  367  git status
+  368  vim index.html 
+  369  git push origin master
+  370  tree
+  371  git cherry-pick 3a2ca92
+  372  git rm index.html
+  373  git cherry-pick 3a2ca92
+  374  git status
+  375  gcm stageGit : suppression fichier.html avant cherry-pick feature43"
+  376  git cherry-pick 3a2ca92
+  377  git status
+  378  vim index.html 
+  379  gc feature43
+  380  vim index.html 
+  381  vim 
+  382  vim index.html 
+  383  gcm stageGit : maj index.html en 43"
+  384  ga index.html 
+  385  gcm stageGit : maj index.html en 43"
+  386  gc master
+  387  git merge feature43
+  388  vim index.html 
+  389  tree
+  390  :q
+  391  gbav
+  392  git push origin master
+  393  git push gitlab master
+  394  tree
+  395  gc developpement
+  396  git rebase master developpement
+  397  tree
+  398  git push origin developpement
+  399  git push gitlab developpement
+  400  tree
+  401  gd feature42
+  402  gd feature43
+  403  tree
+  404  gbav
+  405  tree
+  406  alias
+  407  vim alias.txt
+  408  ga alias.txt i
+  409  ga alias.txt
+  410  gcm AJOUT alias.txt ga alias.txtga alias.txtga alias.txtga alias.txtga alias.txt"
+  411  git push
+  412  tree
+  413  git push gitlab developpement
+  414  gc master
+  415  git rebase developpement
+  416  git push
+  417  git push gitlab master
+  418  tree
+  419  git tag 10.0
+  420  tree
+  421  git status
+  422  git push -a --all-tags
+  423  git push --all
+  424  git pull
+  425  gbav
+  426  git status
+  427  tree
+  428  git pull
+  429  ls
+  430  gcm stageGit(UPT) : ajout Tag 10.0"
+  431  git pull
+  432  gbav
+  433  tree
+  434  git push
+  435  git push gitlab master
+  436  tree
+  437  gc developpement
+  438  git rebase master
+  439  tree
+  440  git push
+  441  tree
+  442  git push gitlab developpement
+  443  tree
+  444  git tag finalVersion
+  445  tree
+  446  git add finalVersion
+  447  git status
+  448  git push --follow-tags
+  449  tree
+  450  git push --follow-tags gitlab deveppement
+  451  git push --follow-tags gitlab developpement
+  452  git tag -a finalVersion -m "finalVersion"
+  453  git tag remove finalVersion
+  454  git tag -a finalVersion -m "finalVersion"
+  455  tree
+  456  git tag -d finalVersion
+  457  git tag -d remove
+  458  git tag -a finalVersion -m "finalVersion"
+  459  git status
+  460  tree
+  461  git push --follow-tags
+  462  git config --global push.followTags true
+  463  git push --follow-tags gitlab developpement
+  464  tree
+  465  tree
+  466  git commit --amend -m "stageGit(UPT) : ajout Tag FinalVersion"
+  467  tree
+  468  git push -f origin developpement
+  469  git push -f gitlab developpement
+  470  git checkout master
+  471  git rebase developpement master
+  472  tree
+  473  git push origin master
+  474  git push -f origin master
+  475  git push -f gitlab master
+  476  tree
+  477  git tag -d finalVersion
+  478  git tag -a finalVersion -m "stageGit(UPT) : MaJ TAG FinalVersion"
+  479  git push
+  480  git push --follow-tags
+  481  tree
+  482  git push -f ---follow-tags
+  483  git push -f --follow-tags
+  484  git push -f --follow-tags origin master
+  485  git push -f --follow-tags gitlab master
+  486  tree
+  487  git push -f --follow-tags gitlab master
+  488  git push origin :finalVersion
+  489  git push -f --follow-tags origin master
+  490  git-flow
+  491  git flow init
+  492  git flow init
+  493  git flow feature start nouvelleFeature
+  494  git flow feature finish nouvelleFeature
+  495  tree
+  496  gbav
+  497  git status
+  498  git status
+  499  git status
+  500  alias
+  501  hisory
+  502  history
+  503  cd Desktop/formationGit/
+  504  ls
+  505  cd stageGit/
+  506  ls
+  507  history > history.txt
